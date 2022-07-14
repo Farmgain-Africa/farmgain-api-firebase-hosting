@@ -5,15 +5,14 @@ const cors = require('cors')({ origin: true });
 const app = express();
 const firebase = require('firebase/compat/app');
 require('firebase/compat/firestore');
-require("dotenv").config();
 
 const firebaseConfig = {
-  apiKey: process.env.apiKey,
+  apiKey: "AIzaSyCfQWMtK2I5hGD_pYQxPzgIiE9bA-qPzgI",
   authDomain: "farmgain-93726.firebaseapp.com",
   projectId: "farmgain-93726",
   storageBucket: "farmgain-93726.appspot.com",
   messagingSenderId: "90279065969",
-  appId: process.env.appId,
+  appId: "1:90279065969:web:76954a9db17368ca1d1ed0",
   measurementId: "G-0360T4STPS"
 };
 // Initialize Firebase
